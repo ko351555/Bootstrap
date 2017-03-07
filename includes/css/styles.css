@@ -1,0 +1,186 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   #mar1
+   {
+      margin-top: 0px;
+   }
+   .trick1 h3
+   {
+      /*margin-top: 0px;*/
+   }
+
+   #level1
+   {
+      text-align: center;
+      background: 33FF87;
+   }
+   #a1
+   {
+      margin-top: -20px;
+   }
+   #successAlert
+   {
+      display: none;
+   }
+   #level1 img
+   {
+      text-align: center;
+   }
+   #level1
+   {
+      margin-top: 10px;
+   }
+   #features img
+   {
+
+      margin: 0 0 20px;
+   }
+   .navbar-brand >img
+   {
+      width: 60px;
+      height: 60px;
+   }
+   .trick2 h3
+   {
+      color:33FF87;
+   }
+   footer
+   {
+      background: #333;
+      color:#eee;
+      font-size: 11px;
+      padding: 20px;
+   }
+   .navbar-brand
+   {
+      padding: 13px 15px;
+   }
+   ul.unstyled 
+   {
+      list-style: none;
+      padding: 0   }
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   #searchInput
+   {
+      width: 200px;
+   }
+   .navbar
+   {
+      background:skyblue;
+   }
+   /*.container
+   {
+      background-image:url("https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTHW2QNUIn6qprMMvLfUZ2VQQ9IbCLR_A71iy3Kw5deSdd65BWg");
+   }
+   */
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+   #myCarousel {
+
+      margin-top: 100px;
+   }
+
+   .carousel-caption {
+      font-size: 20px;
+   }
+
+   .carousel-caption h4 {
+      font-size: 28px;
+   }
+
+   #myCarousel .item { 
+      background-size: 100% 300px;
+      height: 300px; }
+
+      #slide1 {
+         background: url('https://wallpapers.ws/large/201504/24098.jpg') top center no-repeat;
+      }
+
+      #slide2 {
+         background: url('../../images/eiff2.jpg') top center no-repeat;
+      }
+
+      #slide3 {
+         background: url('../../images/ven1.jpg') top center no-repeat;
+      }
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+   /* Portrait & landscape phone */
+   @media (max-width: 480px) {
+    #slide1 {
+      background: url('https://wallpapers.ws/large/201504/24098.jpg') top center no-repeat;
+   }
+
+   #slide2 {
+      background: url('../../images/eiff2.jpg') top center no-repeat;
+   }
+
+   #slide3 {
+      background: url('../../images/ven1.jpg') top center no-repeat;
+   }
+
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+ #slide1 {
+   background: url('https://wallpapers.ws/large/201504/24098.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/eiff2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/ven1.jpg') top center no-repeat;
+}
+
+}
+
+/* Large desktop */
+@media (min-width: 1200px) {
+ #slide1 {
+   background: url('https://wallpapers.ws/large/201504/24098.jpg') top center no-repeat;
+}
+
+#slide2 {
+   background: url('../../images/eiff2.jpg') top center no-repeat;
+}
+
+#slide3 {
+   background: url('../../images/ven1.jpg') top center no-repeat;
+}
+
+}
